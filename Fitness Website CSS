@@ -1,0 +1,79 @@
+.intro{
+  display: grid; 
+  grid-template-rows: 1fr 1fr 1fr 2fr 1fr 1fr;  
+  justify-items: center; 
+}
+
+.intro h1{
+  font-size: 42px; 
+}
+
+.intro h2{
+  text-align: center; 
+}
+
+.intro button{
+  border-radius: 20px;
+  height: 30%; 
+  width: 15%; 
+}
+
+.imgs{
+  display: flex; 
+  gap: 5px; 
+}
+
+.reviews{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px; 
+}
+
+.review{
+  border: solid 2px black; 
+}
+
+.review-header{
+  display: flex; 
+  gap: 20px; 
+  justify-content: center; 
+}
+
+.review-desc{
+  position: relative;
+  width: 85%;
+  margin-left: 10%; 
+}
+
+.review-circle {
+  background-color: teal;
+  color: white;
+  border-radius: 50%;
+  width: 50px;         /* circle size */
+  height: 50px;
+  display: flex;       /* centers the text */
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;     /* adjust this to fit the initials */
+  text-transform: uppercase; /* makes letters uppercase */
+}
+
+.outro{
+  display: grid; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  justify-items: center; 
+}
+
+.outro-1{
+  display: grid; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  justify-items: center; 
+  background-color: teal;
+  width: 100%; 
+}
+
+.outro-button{
+  border-radius: 20px;
+  margin-bottom: 20px; 
+}
